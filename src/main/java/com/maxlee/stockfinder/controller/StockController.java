@@ -16,6 +16,7 @@ public class StockController {
     @PostMapping("getStockInfoOfDate")
     public String getStockInfoOfDate(@RequestParam("stockItem") String stockItem) {
         // TODO : naver finance api를 통한 특정 회사의 일별 주가 데이터 얻어오기
+        // hello world
         return stockItem;
     }
 }
